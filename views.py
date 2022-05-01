@@ -5,6 +5,11 @@ from newsapi import NewsApiClient
 
 app =Flask(__name__)
 
+@app.route('/landing')
+def landing():
+    return render_template('landing.html')
+
+
 @app.route('/')
 def index():
     newapi = NewsApiClient(api_key="7497b8a3477240c181b4b85f120d9d24") 

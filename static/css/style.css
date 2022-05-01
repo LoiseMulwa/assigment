@@ -1,3 +1,31 @@
 /* body{
     background-image: url('https://cdn.pixabay.com/photo/2016/10/25/22/22/roses-1770165_960_720.png');
 } */
+/* body
+{
+    background-color: #dabcfc;
+} */
+ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Rancho', cursive;
+}
+ul{
+    margin-top: -5%;
+    margin-left: 55%;
+}
+.logo{
+    margin-top: 1%;
+    font-family: 'Rancho', cursive;
+    color: goldenrod;
+    font-size: xx-large;
+    margin-left: 10%;
+}
+#top{
+    background-color: #151515;
+}
+
+
