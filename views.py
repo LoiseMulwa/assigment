@@ -19,18 +19,18 @@ def index():
     time = []
     content = []
 
-    # # for i in range(len(articles)):
-    # #     myarticles = articles [i]
-    #     news.append(myarticles['title'])
-    #     description.append(myarticles['description'])
-    #     link.append(myarticles['url'])
-    #     image.append(myarticles['urlToImage'])
-    #     time.append(myarticles['publishedAt'])
-    #     content.append(myarticles ['content'])
+    for i in range(len(articles)):
+        myarticles = articles [i]
+        news.append(myarticles['title'])
+        description.append(myarticles['description'])
+        link.append(myarticles['url'])
+        image.append(myarticles['urlToImage'])
+        time.append(myarticles['publishedAt'])
+        content.append(myarticles ['content'])
 
-    # my_list = zip( news,description,link,image,time,content)
+    my_list = zip( news,description,link,image,time,content)
 
-    # return render_template('index.html',context=my_list)
+    return render_template('index.html',context=my_list)
 
 @app.route('/homepage')
 def homepage():
