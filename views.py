@@ -5,9 +5,7 @@ from newsapi import NewsApiClient
 
 app =Flask(__name__)
 
-@app.route('/landing')
-def landing():
-    return render_template('landing.html')
+
 
 
 @app.route('/')
