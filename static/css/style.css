@@ -6,7 +6,10 @@
     background-color: #dabcfc;
 } */
 hr{
-   background-color: black;
+   background-color:black;
+   color: black;
+   border: 30px;
+   height: 10px;
 }
 ul a{
     text-decoration: none;
@@ -18,4 +21,28 @@ ul a{
     background-position: center;
     height: 450px;
 
+}
+
+.mul{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10%;
+    background-color:grey;
+    height: 300px;
+    box-shadow: 30%;
+    opacity: 0.8;
+    width: 50%;
+    margin-top: 3%;
+    font-size: large;
+
+
+}
+.footer{
+    height: 100px;
+}
+.pr{
+    color: red !important; 
+    font-size: xx-large;
+    font-weight: bold;
+    
 }
