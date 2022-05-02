@@ -7,9 +7,13 @@ app =Flask(__name__)
 
 
 
-
 @app.route('/')
 def index():
+    return render_template('index.html')
+
+
+@app.route('/bbc')
+def bbc():
     newapi = NewsApiClient(api_key="7497b8a3477240c181b4b85f120d9d24") 
     topheadlines = newapi.get_top_headlines(sources="bbc-news")
     articles = topheadlines['articles']
@@ -33,11 +37,7 @@ def index():
 
     my_list = zip( news,description,link,image,time,content)
 
-    return render_template('index.html',context=my_list)
-
-@app.route('/homepage')
-def homepage():
-    return render_template('homepage.html')
+    return render_template('bbc.html',context=my_list)
 
 @app.route('/about')
 def about():
