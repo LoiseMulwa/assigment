@@ -47,3 +47,23 @@ ul a{
     font-weight: bold;
     
 }
+.hhh{
+    background-color: #E7E5E5 !important;
+}
+.dyn {
+    padding-top: 2%;
+    color: black;
+    display: inline-block;
+    position: relative;
+    font-family: rancho;
+}
+
+.dyn::after {
+    content: '';
+    height: 5px;
+    width: 70%;
+    background: black;
+    position: absolute;
+    left: calc(18%);
+    bottom: 0;
+}
