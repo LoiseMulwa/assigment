@@ -12,20 +12,20 @@
     <h1 class="dyn  text-danger ">DAILY NEWS</h1>
     <div class="container " >
         {% for news,description,link,i,time,content in context %}
-        <div>
+        <div class="nnn bg-danger">
             <h2 >NEWS</h2>{{news}}
         </div>
-        <div>
+        <div class="nnn text-center">
             <h3>DESCRIPTION</h3>{{description}}
         </div>
-        <div>
+        <div class="nnn text-center">
             <h4>LINK</h4>{{link}}
         </div>
-        <div><img src="{{i}}" alt="" style="height: 400px"></div>
-        <div>
+        <div class="nnn text-center"><img src="{{i}}" alt="" style="height: 400px"></div>
+        <div class="nnn text-center">
             <h5 >TIME</h5>{{time}}
         </div>
-        <div >
+        <div class="nnn text-center">
             <h6 >CONTENT</h6>{{content}}
         </div >
         </div>

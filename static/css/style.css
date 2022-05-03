@@ -67,3 +67,7 @@ ul a{
     left: calc(18%);
     bottom: 0;
 }
+.nnn{
+    text-align: center !important;
+    background-color: cadetblue;
+}
