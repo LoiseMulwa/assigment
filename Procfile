@@ -1,1 +1,1 @@
-web: gunicorn wsgi:views
+web: gunicorn views:app
